@@ -1,0 +1,170 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.start {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.start h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.start span {
+    font-size: 16px;
+    color: #666;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myInput, .myInput2 {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.myInput:focus, .myInput2:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.entriesTable {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.entriesTable th, .entriesTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.entriesTable th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.entriesTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.summary h3 {
+    font-size: 22px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.set-balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.set-balance .myInput2 {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.set-balance button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.set-balance button:hover {
+    background-color: #218838;
+}
+
+
+.profile p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.entriesTable td button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.entriesTable td button:hover {
+    background-color: #c82333;
+}
